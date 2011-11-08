@@ -1,7 +1,7 @@
 set nocompatible               " be iMproved
 
 if !isdirectory(expand("~/.vim/bundle/vundle/.git"))
-  !git clone git://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+  !git clone git://github.com/alextakitani/vundle.git ~/.vim/bundle/vundle
 endif
 
 filetype off                   " must be off before Vundle has run
@@ -32,7 +32,7 @@ Bundle "git://github.com/vim-scripts/Gist.vim.git"
 Bundle "git://github.com/vim-scripts/L9.git"
 Bundle "git://github.com/Bogdanp/rbrepl.vim.git"
 Bundle "git://github.com/rson/vim-conque.git"
-Bundle 'git://git.wincent.com/command-t.git'
+Bundle 'git://github.com/wincent/Command-T.git'
 Bundle "git://github.com/gmarik/snipmate.vim.git"
 Bundle "git://github.com/krisleech/snipmate-snippets.git"
 Bundle 'git://github.com/altercation/vim-colors-solarized.git'
